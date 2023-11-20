@@ -1,0 +1,83 @@
+/* Styling for the container holding the user interface */
+#user {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 25px;
+  height: 300px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid rgb(137, 136, 115);
+  gap: 5px;  
+}
+
+/* Global styling for all elements */
+* {
+  font-family: sans-serif;
+}
+
+/* Styling for the Instagram logo */
+img {
+  mix-blend-mode: multiply;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+/* Styling for input placeholders */
+input::placeholder {
+  color: rgb(137, 136, 115);
+  padding-left: 10px;
+}
+
+/* Styling for input fields and buttons within the user container */
+#user input, #user button {
+  height: 30px;
+  padding-left: 5px;
+  background-color: rgb(76, 181, 249);
+  color: white;
+  outline: none;
+}
+
+/* Styling for input fields */
+#user input {
+  border: none;
+  background-color: rgb(250, 250, 250);
+  color: black;
+}
+
+/* Styling for the container holding the user interface */
+#Container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+/* Resetting button styles */
+button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Styling for input fields within the user container */
+#user input {
+  border: 1px solid rgb(137, 136, 115);
+}
+
+/* Styling for the footer section */
+#footer {
+  padding-top: 20px;
+}
+
+/* Styling for the clickable span in the footer */
+span {
+  cursor: pointer;
+  color: rgb(76, 181, 249);
+}
